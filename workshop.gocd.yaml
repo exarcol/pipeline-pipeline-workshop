@@ -13,7 +13,7 @@ pipelines:
                 - exec:
                     command: sh
                     arguments:
-                      - c
+                      - -c
                       - ./gradle clean test
       - Integration_Tests:
           jobs:
@@ -22,5 +22,5 @@ pipelines:
                 - exec:
                     command: sh
                     arguments:
-                      - c
+                      - -c
                       - ./gradle clean integrationTest
