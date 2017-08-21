@@ -3,7 +3,7 @@ pipelines:
     group: workshops
     materials:
       repo:
-        git: https://github.com/faustocv/springboot-workshop-i.git
+        git: https://github.com/exarcol/springboot-workshop-i.git
         branch: master
     stages:
       - Unit_Tests:
