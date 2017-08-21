@@ -14,12 +14,11 @@ pipelines:
                     command: sh
                     arguments:
                       - c
-                      - ./gradle clean test
-                      un_tests:
+                      - ./gradlew clean test
             integration_tests:
               tasks:
                 - exec:
                     command: sh
                     arguments:
                       - c
-                      - ./gradle clean integrationTest
+                      - ./gradlew clean integrationTest
